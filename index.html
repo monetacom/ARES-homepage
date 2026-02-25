@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARES — Go Fighting ⚽</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ───────────────────── NAVBAR ───────────────────── -->
+  <header id="navbar">
+    <nav class="nav-container">
+      <a href="#" class="nav-logo" data-page="home">SOONGSIL ARES<span class="logo-dot">.</span></a>
+
+      <button class="nav-hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><button class="nav-btn active" data-page="home">홈</button></li>
+        <li><button class="nav-btn" data-page="about">팀 소개</button></li>
+        <li><button class="nav-btn" data-page="activity">주요 활동</button></li>
+        <li><button class="nav-btn" data-page="contact">연락처</button></li>
+        <li><button class="nav-btn nav-cta-btn" data-page="contact">합류하기</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ───────────────────── MAIN CONTENT ───────────────────── -->
+  <main id="main">
+
+    <!-- ① HOME -->
+    <section class="page page--active" id="page-home">
+      <div class="hero-content">
+        <p class="hero-eyebrow">숭실대학교 경제통상대학 축구 소모임</p>
+        <h1 class="hero-title"><span class="hero-title-main">ARES</span></h1>
+        <p class="hero-slogan">"함께 뛰고, 함께 웃는다. 우리가 ARES다."</p>
+        <p class="hero-subtitle">ARES GO FIGHTING</p>
+        <div class="hero-btns">
+          <button class="btn btn--primary" data-page="about">팀 소개 보기</button>
+          <button class="btn btn--primary" data-page="activity">활동 기록 보기</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ② ABOUT -->
+    <section class="page" id="page-about">
+      <div class="page-container">
+        <div class="page-header">
+          <span class="section-label">About</span>
+          <h2 class="section-title">우리가 <span class="highlight">ARES</span>입니다</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="about-intro">
+              ARES는 축구를 향한 열정과 끈끈한 팀워크를 바탕으로
+              대회에서 도전하고, 일상에서 함께 즐기며 성장하는
+              <strong>숭실대학교 축구 소모임</strong>입니다.
+            </p>
+            <p class="about-body">
+              그라운드 위의 90분, 그 이상의 유대감. ARES는 단순한 축구 모임이 아닙니다.
+              서로의 등을 믿고 뛰는 동료, 함께 웃고 땀 흘리는 청춘의 기록—
+              그것이 ARES가 만들어 가는 이야기입니다.
+            </p>
+            <p class="about-body">
+              우리는 축구를 통해 성장하고 대회에서 최선을 다합니다. 
+              그라운드 안팎에서 서로를 지지하며, 
+              열정과 팀워크, 도전 그리고 청춘의 즐거움을 함께 나눕니다.
+            </p>
+            <p class="about-slogan">
+              <em>ARES Go Fighting ⚽</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ③ ACTIVITY -->
+    <section class="page" id="page-activity">
+      <div class="page-container">
+        <div class="page-header">
+          <span class="section-label">Activity</span>
+          <h2 class="section-title">주요 <span class="highlight">활동</span></h2>
+          <p class="section-sub">그라운드 위의 열정부터, 함께하는 모든 순간까지.</p>
+        </div>
+
+        <div class="activity-grid">
+          <div class="activity-card">
+            <div class="activity-card__icon">⚽</div>
+            <h3 class="activity-card__title">축구 대회 참가</h3>
+            <p class="activity-card__desc">교내외 축구 대회에 팀으로 참가하여 실력 향상과 팀워크를 동시에 경험합니다.</p>
+          </div>
+          <div class="activity-card">
+            <div class="activity-card__icon">🏆</div>
+            <h3 class="activity-card__title">새내기 대회</h3>
+            <p class="activity-card__desc">신입 부원들이 처음으로 참가하는 첫 공식 대회. 선후배가 함께 뛰며 유대감을 형성합니다.</p>
+          </div>
+          <div class="activity-card activity-card--featured">
+            <span class="activity-card__badge">MAIN EVENT</span>
+            <div class="activity-card__icon">🥇</div>
+            <h3 class="activity-card__title">백마기 대회</h3>
+            <p class="activity-card__desc">학교 대표 대회인 백마기에 참가. ARES의 실력을 가장 크게 펼치는 무대입니다.</p>
+          </div>
+          <div class="activity-card">
+            <div class="activity-card__icon">🎉</div>
+            <h3 class="activity-card__title">개강 파티</h3>
+            <p class="activity-card__desc">새 학기 시작을 함께 축하하는 환영 행사. 신입 부원 환영 및 팀 분위기를 형성합니다.</p>
+          </div>
+          <div class="activity-card">
+            <div class="activity-card__icon">🎊</div>
+            <h3 class="activity-card__title">종강 파티</h3>
+            <p class="activity-card__desc">한 학기를 함께 마무리하는 뒤풀이 행사. 수고한 부원들과 함께하는 감사의 자리.</p>
+          </div>
+          <div class="activity-card">
+            <div class="activity-card__icon">🏕️</div>
+            <h3 class="activity-card__title">MT <small>(학기 2회)</small></h3>
+            <p class="activity-card__desc">학기당 2회 진행하는 팀 전체 MT. 팀원 간 친목 강화 및 팀 결속력을 높입니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑤ CONTACT -->
+    <section class="page" id="page-contact">
+      <div class="page-container">
+        <div class="page-header">
+          <span class="section-label">Contact</span>
+          <h2 class="section-title">함께 <span class="highlight">뛰어봐요</span></h2>
+          <p class="section-sub">ARES에 합류하고 싶거나, 궁금한 점이 있다면 언제든 연락주세요.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">📧</div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:ares@example.com">ares@example.com</a>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon">📸</div>
+              <div>
+                <strong>Instagram</strong>
+                <a href="https://instagram.com/ares_team" target="_blank" rel="noopener">@ares_team</a>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon">💬</div>
+              <div>
+                <strong>KakaoTalk</strong>
+                <span>오픈채팅 — 추후 업데이트 예정</span>
+              </div>
+            </div>
+            <div class="contact-badge">
+              <span>⚽</span>
+              <div>
+                <strong>신입 부원 모집</strong>
+                <p>매 학기 상시 모집 중!<br />축구를 사랑한다면 누구나 환영합니다.</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="f-name">이름</label>
+              <input type="text" id="f-name" name="name" placeholder="홍길동" required />
+            </div>
+            <div class="form-group">
+              <label for="f-phone">연락처</label>
+              <input type="tel" id="f-phone" name="phone" placeholder="010-0000-0000" />
+            </div>
+            <div class="form-group">
+              <label for="f-email">이메일</label>
+              <input type="email" id="f-email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="f-msg">문의 내용</label>
+              <textarea id="f-msg" name="message" rows="4" placeholder="궁금한 점 또는 가입 문의를 남겨주세요." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">문의 보내기</button>
+            <p class="form-success" id="form-success">✅ 메시지가 전달되었습니다! 빠르게 연락드리겠습니다.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ───────────────────── FOOTER ───────────────────── -->
+  <footer id="footer">
+    <div class="footer-container">
+      <span class="footer-logo">ARES<span class="logo-dot">.</span></span>
+      <p class="footer-slogan">ARES Go Fighting ⚽</p>
+      <nav class="footer-nav">
+        <button data-page="about">팀 소개</button>
+        <button data-page="activity">주요 활동</button>
+        <button data-page="contact">연락처</button>
+      </nav>
+      <p class="footer-copy">© 2025 ARES Football Club. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
